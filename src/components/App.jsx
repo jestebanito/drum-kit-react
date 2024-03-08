@@ -4,7 +4,7 @@ function App() {
   return (
       <div className="wrapper">
         <main id="main">
-        <ul class="circles">
+        <ul className="circles">
           <li></li>
           <li></li>
           <li></li>

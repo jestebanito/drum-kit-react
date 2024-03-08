@@ -1,20 +1,31 @@
 body {
-  margin: 0;
+	font-family: 'Albert Sans', sans-serif;
+  	margin: 0;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: -1;
 	background: #505050;
-  width: 100%;
-  height:100vh;
+	width: 100%;
+	height:100vh;
+}
+
+footer {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
 }
 
 /*--------------------------------------------------------------
 # Main Content
 --------------------------------------------------------------*/
 #main {
-	padding: 1rem 0 3rem;
+	padding: 4rem 0 3rem;
   	min-height: 18.75rem;
 	max-width: 75rem;
 	margin: 0 auto;
@@ -22,19 +33,19 @@ body {
 
 @media (min-width: 580px) {
 	#main {
-		padding: 1rem 1.25rem 0;
+		padding: 2rem 1.25rem 0;
 	}
 }
+
 
 #about .try-me {
 	text-align: center;
   	font-weight: 600;
-	margin: 2.5rem 0 0rem;
-  	font-family: 'Albert Sans', sans-serif;
+	color: #dfdfdf;
 }
 
 p {
-  font-family: 'Albert Sans', sans-serif;
+	color: #dfdfdf;
 }
 
 button {
@@ -55,7 +66,7 @@ button {
 	margin: 0 auto;
 	background-color: #303030;
 	border-radius: 0.5rem;
-	color: #ffffff
+	color: #dfdfdf
 }
 
 button[disabled] {
@@ -415,12 +426,12 @@ img.ride {
 
 .circles{
   position: fixed;
-  top: 0;
-  left: -48px;
+  top: -15px;
+  left: -16px;
   width: 100%;
   height: 100%;
   overflow: hidden;
-z-index: -1;
+  z-index: -1;
 }
 
 .circles li{
@@ -517,4 +528,18 @@ z-index: -1;
   height: 70px;
   animation-delay: 5s;
   animation-duration: 15s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 30%;
+    }
 }
