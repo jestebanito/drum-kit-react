@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Drumkeys from './Drumkeys';
 import tomOneSound from "../assets/sounds/tom-1.wav";
 import tomTwoSound from "../assets/sounds/tom-2.wav";
@@ -114,7 +114,7 @@ function Drumkit() {
     
     return (
             <>
-            <h3 className="try-me">TRY ME!</h3>
+            <h2 className="try-me">TRY ME!</h2>
             <p className="drum-disclaimer">To account for potential latency, please allow audio to buffer during initial drum play*</p>
             <div className="drums">
                 <button className="shortcuts" onClick={() => toggleShortcuts()}>

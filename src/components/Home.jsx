@@ -4,7 +4,9 @@ import Drumkit from './Drumkit';
 function Home() {
     return (
         <div>
-            <Drumkit />
+            <section id='about'>
+                <Drumkit />
+            </section>
         </div>
     );
 }
