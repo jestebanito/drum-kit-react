@@ -66,3 +66,343 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/*--------------------------------------------------------------
+# Drums
+--------------------------------------------------------------*/
+.drum-disclaimer {
+	max-width: 95%;
+	font-size: 0.6rem;
+	text-align: center;
+	margin: 0.3rem auto 1.2rem;
+	padding-top: 0;
+}
+
+@media (min-width: 580px) {
+	.drum-disclaimer {
+		font-size: 0.8rem;
+	}
+}
+
+.speaker-audio img {
+	top: 15px;
+	left: 15px;
+	width: 32px;
+	border-radius: 10px !important;
+	background-color: #303030;
+	outline: 3px solid #eeeeee;
+	padding: 5px;
+}
+
+.speaker-audio img:hover {
+	transform: scale(1.1);
+}
+
+@media (min-width: 445px) {
+	.speaker-audio img {
+		width: 40px;
+	}
+}
+
+@media (min-width: 760px) {
+	.speaker-audio img {
+		width: 45px;
+	}
+}
+
+.drums {
+	position: relative;
+	height: 12.3rem;
+	width: 100%;
+	max-width: 19.4rem;
+	margin: 0 auto;
+	background-color: #606060;
+	background: url('./assets/drumicons/hardwood-floor.jpg') center/cover no-repeat;
+	outline: solid 0.3rem #202020;
+	border-radius: 1rem;
+	box-shadow: 5px 15px 10px rgba(0,0,0,0.6);
+	
+}
+
+.drums img {
+	position: absolute;
+	height: auto;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+
+.drum-icons img:hover {
+	opacity: 0.8;
+}
+
+.drum-icons img:active {
+	opacity: 0.6;
+}
+
+.low-opacity {
+	opacity: 0.6;
+}
+
+img.kick {
+	width: 29%;
+	left: 0;
+	right: 0;
+	bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0;
+}
+
+img.hihat {
+	width: 19%;
+	top: 0;
+	left: 4.5%;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+img.snare {
+	width: 20%;
+	left: 17.5%;
+	bottom: 22%;
+	border-radius: 0;
+}
+
+img.tom-1 {
+	width: 18%;
+	top: 24.6%;
+	left: 33%;
+}
+
+img.tom-2 {
+	width: 20%;
+	bottom: 43%;
+	right: 29.5%;
+}
+
+img.crash {
+	width: 22%;
+	top: 5%;
+	left: 17%;
+}
+
+img.splash {
+	width: 16%;
+	top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 3%;
+	right: 0;
+}
+
+img.floor-tom {
+	width: 24.5%;
+	bottom: 14%;
+	right: 12%;
+}
+
+img.ride {
+	width: 26%;
+	top: 16%;
+	right: 6%;
+}
+
+@media (min-width: 445px) {
+	.drums {
+		position: relative;
+		height: 17rem;
+		width: 100%;
+		max-width: 26.9rem;
+		margin: 0 auto;
+		outline: solid 0.5rem #202020;
+		border-radius: 1rem;
+	}
+}
+
+@media (max-width: 580px) {
+	.drums button,
+	.drums .key-icons img {
+        display: none;
+    }
+}
+
+@media (min-width: 580px) {
+	.drums {
+		position: relative;
+		height: 19.1rem;
+		width: 100%;
+		max-width: 33.8rem;
+		margin: 0 auto;
+		outline: solid 0.6rem #202020;
+		border-radius: 1rem;
+	}
+
+	.drums button {
+		position: absolute;
+		top: 0.6rem;
+		right: 0.6rem;
+		font-size: 1rem;
+	}
+
+	img.kick {
+		width: 24%;
+		bottom: 8.5%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		border-radius: 0;
+	}
+	
+	img.hihat {
+		width: 18%;
+		top: 5.5%;
+		margin-top: auto;
+		margin-bottom: auto;
+		left: 8.5%;
+		bottom: 0;
+	}
+	
+	img.snare {
+		width: 18%;
+		bottom: 20.5%;
+		left: 21.4%;
+		border-radius: 0;
+	}
+	
+	img.tom-1 {
+		width: 15%;
+		top: 27.2%;
+		left: 35%;
+	}
+	
+	img.tom-2 {
+		width: 18%;
+		bottom: 42.3%;
+		right: 32.3%;
+	}
+	
+	img.crash {
+		width: 20%;
+		top: 6%;
+		left: 20%;
+	}
+	
+	img.splash {
+		width: 14%;
+		top: 6%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	img.floor-tom {
+		width: 22%;
+		bottom: 13.5%;
+		right: 16.6%;
+	}
+	
+	img.ride {
+		width: 23%;
+		top: 16%;
+		right: 12%;
+	}
+
+	.drum .key-icons img {
+		border-radius: 0;
+		width: 3.6%
+	}
+
+	img.spacebar-key {
+		bottom: 27.4%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 9.5%;
+		right: 0;
+	}
+
+	img.f-key {
+		top: 21.5%;
+		margin-top: auto;
+		margin-bottom: auto;
+		left: 21.5%;
+		bottom: 0;
+	}
+
+	img.v-key {
+		bottom: 32.5%;
+		left: 34%;
+		border-radius: 0;
+	}
+
+	img.g-key {
+		top: 38.1%;
+		left: 45.8%;
+	}
+
+	img.h-key {
+		bottom: 54.5%;
+		right: 34.2%;
+	}
+
+	img.t-key {
+		top: 29.2%;
+		left: 34%;
+	}
+
+	img.y-key {
+		top: 20.8%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 13%;
+		right: 0;
+	}
+
+	img.j-key {
+		bottom: 29.8%;
+		right: 20%;
+	}
+
+	img.u-key {
+		width: 4%;
+		top: 44%;
+		right: 17%;
+	}
+}
+
+@media (min-width: 760px) {
+	.drums {
+		position: relative;
+		height: 25.5rem;
+		width: 100%;
+		max-width: 45rem;
+		margin: 0 auto;
+		outline: solid 0.8rem #202020;
+		border-radius: 1rem;
+	}
+
+	.drums button {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		font-size: 1.2rem;
+		margin: 0 auto;
+		background-color: #303030;
+		border-radius: 0.5rem;
+		color: #ffffff
+	}
+}
+
+@media (min-width: 1000px) {
+	.drums {
+		position: relative;
+		height: 34rem;
+		width: 100%;
+		max-width: 60rem;
+		margin: 0 auto;
+		outline: solid 1rem #202020;
+		border-radius: 1rem;
+	}
+}
