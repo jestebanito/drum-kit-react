@@ -1,4 +1,3 @@
-import React from 'react';
 import Drumkit from './Drumkit';
 
 function Home() {
