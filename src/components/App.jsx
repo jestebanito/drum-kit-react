@@ -19,6 +19,9 @@ function App() {
         </ul>
           <Home />
         </main>
+        <footer>
+            <p className="copyright">&copy; 2024 Handcrafted by Josh Esteban</p>
+        </footer>
       </div>
   );
 }
